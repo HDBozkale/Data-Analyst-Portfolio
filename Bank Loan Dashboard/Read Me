@@ -1,0 +1,67 @@
+# 🏦 Bank Loan Performance Dashboard & Analysis
+
+## **Project Overview**
+
+This project is a comprehensive **Bank Loan Analysis** designed to track and evaluate the financial performance and risk profile of a loan portfolio. The goal was to transform raw loan data into a dynamic, interactive dashboard and actionable insights to support lending decisions and strategic planning.
+
+This project demonstrates an end-to-end analytical workflow, including:
+1.  **Data Extraction & Transformation:** Using **SQL** to calculate Key Performance Indicators (KPIs) and monthly trends.
+2.  **Visualization & Storytelling:** Creating an interactive **Tableau Dashboard** for Executive reporting and drill-down analysis.
+
+---
+
+## **🎯 Key Performance Indicators (KPIs) & Objectives**
+
+The analysis focused on generating and tracking essential financial and operational metrics, including Month-to-Date (MTD) vs. Prior Month-to-Date (PMTD) comparisons to assess recent performance:
+
+* **Total Loan Applications** (MTD vs. PMTD)
+* **Total Funded Amount** (MTD vs. PMTD)
+* **Total Amount Received** (MTD vs. PMTD)
+* **Interest Rate, Term, Grade, and Loan Status** distributions.
+* **Good Loan vs. Bad Loan** analysis (assessing loans fully paid vs. charged off).
+
+---
+
+## **🛠️ Technologies and Tools**
+
+| Category | Tool / Language | Purpose |
+| :--- | :--- | :--- |
+| **Data Querying** | **SQL (T-SQL/MSSQL syntax)** | Used for data cleaning, transformation, aggregation, KPI calculation, and trend analysis. |
+| **Visualization** | **Tableau** | Designed a professional, interactive dashboard for executive-level reporting and exploration. |
+| **Documentation** | **SQL files/Word** | Storing all production-ready queries and project documentation. |
+
+---
+
+## **📈 Key Findings & Insights**
+
+The analysis provides detailed breakdowns crucial for managing the loan portfolio:
+
+* **Financial Health:** The MTD vs. PMTD comparisons revealed specific growth or decline in applications and funding, providing immediate feedback on marketing and risk strategies.
+* **Risk Profile:** Analysis by **Loan Grade** and **Sub-Grade** helps the bank identify segments with higher default risk.
+* **Default Analysis:** The classification of **Good Loans** (fully paid) versus **Bad Loans** (charged off) directly informs future underwriting criteria.
+* **Regional Demand:** Loan applications grouped by **State** reveal key geographic markets for the bank's lending products.
+* **Demand Drivers:** Breakdown by **Loan Purpose** (e.g., Debt Consolidation, Home Improvement) shows where customer demand is strongest, allowing for targeted product development.
+
+---
+
+## **📂 Repository Structure**
+
+* `Bank Loan Dashboard.twb`: **The Tableau Workbook** containing the interactive visualizations and final dashboard.
+* `Bank Loan Query.sql`: **Contains all production SQL queries** used to generate the KPIs, trends, and segmented data for the dashboard.
+* `Bank Loan SQL Queries.docx`: A documented version of the SQL queries.
+* *Additional Data Files (Not uploaded, but implied):* The processed data exports used as the source for the Tableau dashboard.
+
+---
+
+## **⭐ Skills Demonstrated**
+
+* **Advanced SQL for Business Metrics:** Proficient in using aggregate functions, `DATEPART()`, `DATENAME()`, and conditional logic (`CASE` statements) to calculate complex MTD/PMTD KPIs.
+* **Data Visualization & Dashboarding:** Ability to design and build executive-level dashboards in Tableau, focusing on user experience and clarity.
+* **Financial & Risk Analysis:** Experience in segmenting financial data (loan status, grade, term) to assess portfolio health and risk exposure.
+* **End-to-End Workflow:** Demonstrated ability to manage a project from raw data querying to final dashboard delivery.
+
+---
+
+**Thank you for reviewing my project!**
+
+***Would you like me to elaborate on any specific SQL query or Tableau feature used in this analysis?***
