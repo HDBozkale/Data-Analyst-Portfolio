@@ -1,0 +1,65 @@
+🎯 Project Overview
+This project involves an in-depth analysis of a pizza sales dataset using SQL (Transact-SQL) to extract key business metrics and identify sales trends. The primary goal was to demonstrate proficiency in writing complex queries for data aggregation, calculations, and temporal analysis, which are essential skills for a Data Analyst role.
+
+The analysis covers core Key Performance Indicators (KPIs), time-series trends, and categorical breakdowns to provide a comprehensive view of the company's performance.
+
+🛠️ Tools and Technologies
+Database: SQL Server (The queries use PizzaDB database and specific T-SQL functions like DATENAME, DATEPART, and CAST).
+
+Language: SQL (T-SQL)
+
+Dataset: pizza_sales table (containing details on total price, order ID, quantity, order date/time, pizza category, size, and name).
+
+📊 Key Analysis Performed
+The SQL script contains queries designed to answer specific business questions, grouped into three main areas:
+
+1. Key Performance Indicators (KPIs)
+These queries provide foundational metrics for the business:
+
+Total Revenue: The overall sales generated.
+
+Average Order Value: The average amount spent per order.
+
+Total Pizzas Sold: The total number of pizza units sold.
+
+Total Orders: The total number of distinct orders placed.
+
+Average Pizzas Per Order: The ratio of total pizzas sold to the total number of orders.
+
+2. Sales Trends Analysis (Time-Series)
+These queries analyze sales patterns over time to identify peak periods:
+
+Daily Trend for Total Orders: Shows the total number of orders by the day of the week (e.g., Monday, Tuesday, etc.).
+
+Hourly Trend for Total Orders: Shows the total number of orders by the hour of the day to determine the busiest times for deliveries/pickups.
+
+3. Categorical and Size Analysis
+These queries break down sales performance by various pizza attributes:
+
+Percentage of Sales By Pizza Category: Calculates the revenue contribution of each pizza category (e.g., Classic, Veggie, Chicken). A sample query for January is included.
+
+Percentage Of Sales By Pizza Size: Calculates the revenue contribution of each pizza size (e.g., Small, Medium, Large).
+
+Total Pizza Sold By Pizza Category: Counts the total quantity of pizzas sold for each category.
+
+4. Top/Bottom Sellers
+These queries identify the best and worst-performing pizza items:
+
+Top 5 Best Sellers: Lists the top 5 pizza names by quantity sold.
+
+Bottom 5 Sellers: Lists the bottom 5 pizza names by quantity sold.
+
+💡 Key Insights Demonstrated
+By structuring the queries as shown, a Data Analyst demonstrates the ability to:
+
+Calculate Complex Metrics: Use aggregate functions (SUM, COUNT) and arithmetic operations to derive business-critical metrics like Average Order Value and Average Pizzas Per Order.
+
+Handle Data Types: Use CAST to ensure accurate calculations (e.g., for the average pizza per order, which requires converting to a decimal for precise results).
+
+Perform Temporal Analysis: Utilize DATENAME and DATEPART to extract and group data by specific time components (day of the week, hour of the day).
+
+Implement Subqueries: Use subqueries within the SELECT or WHERE clauses to calculate percentages relative to a total (e.g., calculating the percentage of sales by category).
+
+Use Ranking/Filtering: Apply TOP and ORDER BY clauses to identify best and worst performers quickly.
+
+This project serves as a strong portfolio piece showcasing practical SQL skills for data extraction and business reporting.
