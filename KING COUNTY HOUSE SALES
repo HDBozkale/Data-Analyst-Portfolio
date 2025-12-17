@@ -1,0 +1,60 @@
+📊 Dashboard Overview
+
+The dashboard enables users to explore housing market dynamics through multiple interactive visualizations, including price trends, geographic distribution, and property feature distributions. Filters allow for detailed analysis by time and property attributes.
+
+🔑 Key Features & Visuals
+
+Daily Average House Sales Price (Line Chart):
+Tracks daily trends in average house prices, allowing users to observe price volatility and market movement over time.
+
+Geographic Price Distribution (Map):
+A location-based visualization showing average house prices across different areas of King County, highlighting regional price disparities.
+
+Price Distribution (Histogram):
+Displays the frequency distribution of house prices, helping identify common price ranges and outliers in the market.
+
+Bedrooms & Bathrooms Distribution (Histograms):
+Shows how property listings are distributed by number of bedrooms and bathrooms, revealing typical housing configurations.
+
+View vs Condition Heatmap:
+Compares average house prices across combinations of property view quality and condition, uncovering how these factors influence pricing.
+
+🎛️ Interactivity & Filters
+
+Users can dynamically filter the data by:
+
+Month and specific date (calendar-based filter)
+
+Year built
+
+Living space (square footage)
+
+Lot size (square footage)
+
+All visualizations update automatically based on selected filters, enabling granular and exploratory analysis.
+
+🧠 Insights Enabled
+
+This dashboard helps answer key analytical and business questions such as:
+
+How do house prices fluctuate over time?
+
+Which locations command higher property values?
+
+How do house condition and view quality impact pricing?
+
+What property characteristics are most common in the market?
+
+🛠 Tools & Skills Demonstrated
+
+Tableau dashboard design & layout optimization
+
+Interactive filters and parameters
+
+Time-series analysis
+
+Geospatial analysis
+
+Data aggregation and binning
+
+Analytical storytelling through visualization
